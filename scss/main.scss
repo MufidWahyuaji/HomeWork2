@@ -1,0 +1,112 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500;700&display=swap');
+
+// Variables
+$primaryColor:#21243D;
+$secondaryColor: #136223;
+$tertiaryColor: #8695A4;
+$textColor: #0C0000;
+
+// Style
+body {
+    font-family: 'Heebo', sans-serif;
+
+}
+
+// costum section
+.section-1 {
+    margin-top: 228px;
+    margin-left: 148px;
+    h1 {
+        white-space: nowrap;
+        color: $primaryColor;
+        font-size: 44px;
+        font-weight: 700;
+    }
+    p {
+        color: $primaryColor;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .img-pro img{
+        height: 243px;
+        width: 243px;
+        left: 760px;
+        top: 210px;
+        border-radius: 100%;
+        margin-left: 115px;
+        
+    }
+
+}
+
+.section-2 {
+    margin-top: 156px;
+    background: #EDF7FA;
+    h2 {
+        margin-top: 10px;
+        margin-left: 146px;
+        font-size: 18px;
+        color: $secondaryColor;
+    }
+    h3 {
+        margin-top: 20px;
+        margin-left: 146px;
+        font-weight: 500;
+        color: $textColor;
+        font-size: 16px;
+    }
+    h3 img {
+        margin-right: 19px;
+    }
+    p {
+        margin-left: 146px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    p2 {
+        margin-left: 146px;
+        font-weight: 100;
+        font-size: 12px;
+        color: #52575C;
+        ;
+    }
+}
+
+.section-3 {
+    margin-top: 29px;
+    margin-left: 146px;
+
+    h2 {
+        font-size: 18px;
+        color: $secondaryColor;
+    }
+
+    .card {
+        margin-top: 46px;
+        border: none;
+    }
+    .card-tetle {
+        color: $primaryColor;
+    }
+    .card-text {
+        color: $primaryColor;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}
+
+.container {
+    img {
+        width: 60px;
+    }
+    p {
+        margin-top: 34px;
+        color: $primaryColor;
+        font-weight: 100;
+        font-size: 14px;
+    }
+}
